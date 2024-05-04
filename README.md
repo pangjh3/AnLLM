@@ -1,7 +1,7 @@
 # AnLLM
 
 <div align="center">
-    <img width="40%" alt="Anllm" src="https://github.com/pangjh3/AnLLM/blob/main/others/training.jpg">
+    <img width="40%" alt="Anllm" src="./others/anllm.jpg">
     <h2>
     Salute the Classic: Revisiting Challenges of Machine Translation in the Age of Large Language Models <br><br>
      <a href="https://arxiv.org/abs/2402.07616"> <img alt="paper link" src="https://img.shields.io/badge/Paper-arXiv-red"> </a>
