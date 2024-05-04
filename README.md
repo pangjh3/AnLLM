@@ -1,5 +1,3 @@
-# AnLLM
-
 <div align="center">
     <img width="40%" alt="Anllm" src="./others/anllm.jpg">
     <h2>
