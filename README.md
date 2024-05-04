@@ -1,7 +1,7 @@
 # AnLLM
 
 <div align="center">
-    <img width="40%" alt="ParroT" src="./others/anllm.png">
+    <img width="40%" alt="Anllm" src="./others/anllm.png">
     <h2>
     Salute the Classic: Revisiting Challenges of Machine Translation in the Age of Large Language Models <br><br>
      <a href="https://arxiv.org/abs/2402.07616"> <img alt="paper link" src="https://img.shields.io/badge/Paper-arXiv-red"> </a>
@@ -28,13 +28,17 @@ Large language models (LLMs) predominantly employ decoder-only transformer archi
 ### Prepare data
 
 We use the [RedPajama-Data-1T-sample](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample) datasets from Huggingface Repo.
+For AnLLM-AC, add an new token \<AC> in the end of each sequeence. 
 
-
-```
-
-
+### Continue Pre-training
 
 ```
+bash run-allm-ac.sh
+```
+
+## Inference
+
+
 
 ## Information
 
