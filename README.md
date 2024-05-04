@@ -1,7 +1,7 @@
 # AnLLM
 
 <div align="center">
-    <img width="40%" alt="Anllm" src="./others/anllm.png">
+    <img width="40%" alt="Anllm" src="./others/anllm.jpg">
     <h2>
     Salute the Classic: Revisiting Challenges of Machine Translation in the Age of Large Language Models <br><br>
      <a href="https://arxiv.org/abs/2402.07616"> <img alt="paper link" src="https://img.shields.io/badge/Paper-arXiv-red"> </a>
@@ -14,13 +14,13 @@ Large language models (LLMs) predominantly employ decoder-only transformer archi
 ## Anchor-based Attention Masks
 
 <p align="center">
-<img src="./others/training.png" width="600" />
+<img src="./others/training.jpg" width="600" />
 </p>
 
 ## Anchor-based Inference
 
 <p align="center">
-<img src="./others/infer.png" width="500" />
+<img src="./others/infer.jpg" width="500" />
 </p>
 
 ## Training
