@@ -34,9 +34,13 @@ For AnLLM-AC, add an new token \<AC> in the end of each sequeence.
 bash run-allm-ac.sh
 ```
 
-## Inference
+### Supervised Fine-Tuning
 
+We convert the data into Alpaca format, and fine-tune our models.
 
+```
+bash run run-sft-allm-ac.sh
+```
 
 ## Information
 
