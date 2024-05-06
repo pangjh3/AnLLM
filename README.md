@@ -42,6 +42,15 @@ We convert the data into Alpaca format, and fine-tune our models.
 bash run run-sft-allm-ac.sh
 ```
 
+## Open-Source Models
+
+- [AnLLM-AC-7B](https://huggingface.co/pangjh3/anchorLLM-ac-7b-pt): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
+- [AnLLM-AC-13B](https://huggingface.co/pangjh3/anchorLLM-ac-13b-pt): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
+- [AnLLM-AC-translation-7B](https://huggingface.co/pangjh3/AnLLM-AC-7B-translation): is being supervised fine-tuned on Alpaca format parallel data, with a new added token \<AC>.
+- [AnLLM-EP-7B](https://huggingface.co/pangjh3/anchorLLM-endpoint-7b-pt): is continuely pre-trained on RedPajama-Data-1T-sample and the endpoint is the anchor token.
+- [AnLLM-EP-translation-7B](https://huggingface.co/pangjh3/AnLLM-EP-7B-translation): is being supervised fine-tuned on Alpaca format parallel data.
+
+
 ## Information
 
 If you find our work to be useful and beneficial for your research, we would greatly appreciate it if you could kindly cite our paper in your references. Thank you for your support!

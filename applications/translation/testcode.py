@@ -13,7 +13,7 @@ import numpy as np
 import sys
 import time
 
-sys.path.append("/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/codes")
+sys.path.append("../codes")
 # from llama_sft_forward_thisversion_new import replace_llama_forward_forinference_withasan as myinfer
 from llama_sft_forward_thisversion_new import replace_llama_forward_forinference_withasan_addfullatt as myinfer
 
