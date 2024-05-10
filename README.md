@@ -44,10 +44,10 @@ bash run run-sft-allm-ac.sh
 
 ## Open-Source Models
 
-- [AnLLM-AC-7B](https://huggingface.co/pangjh3/anchorLLM-ac-7b-pt): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
-- [AnLLM-AC-13B](https://huggingface.co/pangjh3/anchorLLM-ac-13b-pt): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
+- [AnLLM-AC-7B](https://huggingface.co/pangjh3/AnLLM-AC-7B-PT): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
+- [AnLLM-AC-13B](https://huggingface.co/pangjh3/AnLLM-AC-13B-PT): is continuely pre-trained on RedPajama-Data-1T-sample while added a new token \<AC> as anchor.
 - [AnLLM-AC-translation-7B](https://huggingface.co/pangjh3/AnLLM-AC-7B-translation): is being supervised fine-tuned on Alpaca format parallel data, with a new added token \<AC>.
-- [AnLLM-EP-7B](https://huggingface.co/pangjh3/anchorLLM-endpoint-7b-pt): is continuely pre-trained on RedPajama-Data-1T-sample and the endpoint is the anchor token.
+- [AnLLM-EP-7B](https://huggingface.co/pangjh3/AnLLM-EP-7B-PT): is continuely pre-trained on RedPajama-Data-1T-sample and the endpoint is the anchor token.
 - [AnLLM-EP-translation-7B](https://huggingface.co/pangjh3/AnLLM-EP-7B-translation): is being supervised fine-tuned on Alpaca format parallel data.
 
 
