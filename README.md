@@ -21,6 +21,11 @@ Large language models (LLMs) predominantly employ decoder-only transformer archi
 <img src="./others/infer.jpg" width="500" />
 </p>
 
+## Running Environment
+
+- Python 3.8
+- Transformer 4.28.0
+
 ## Training
 
 ### Prepare data
