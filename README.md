@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="30%" alt="Anllm" src="./others/anllm.jpg">
+    <img width="20%" alt="Anllm" src="./others/masks.jpeg">
     <h2>
     Anchor-based Large Language Models <br><br>
      <a href="https://arxiv.org/abs/2402.07616"> <img alt="paper link" src="https://img.shields.io/badge/Paper-arXiv-red"> </a>
