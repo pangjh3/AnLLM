@@ -11,20 +11,20 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
-export TRANSFORMERS_CACHE=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
+export HF_HOME=/jianhuipang_qy3/hf_cache
+export TRANSFORMERS_CACHE=/jianhuipang_qy3/hf_cache
 
-train_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/run_allms.py
-model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
-model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
+train_path=/newmodels/run_allms.py
+model_path=/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
+model_path=/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
 
-# deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
-deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
+# deepspeedpath=/jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
+deepspeedpath=/jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
 
-datanamepath=/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/RedPajama-Data-1T-Sample
+datanamepath=/jianhuipang/datasets/RedPajama-Data-1T-Sample
 echo $datanamepath
 
-model_save=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/checkpoints_ct/punc/allm-juhao-13b
+model_save=/jianhuipang_qy3/models/checkpoints_ct/punc/allm-juhao-13b
 
 if [ ! -d "$model_save" ]; then
     mkdir -p "$model_save"
