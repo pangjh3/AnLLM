@@ -14,6 +14,7 @@ export MASTER_PORT="${MASTER_PORT:=29500}"
 export HF_HOME=/jianhuipang_qy3/hf_cache
 export TRANSFORMERS_CACHE=/jianhuipang_qy3/hf_cache
 
+
 train_path=/jianhuipang_qy3/gogollm/run_allms.py
 # train_path=/jianhuipang_qy3/gogollm/applications/run_allms_fortranslation.py
 model_path=/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
