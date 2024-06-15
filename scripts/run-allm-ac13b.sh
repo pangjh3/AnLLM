@@ -12,19 +12,19 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
-export TRANSFORMERS_CACHE=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
+export HF_HOME=//hf_cache
+export TRANSFORMERS_CACHE=//hf_cache
 
-train_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/run_allms2.py
-model_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/opensourcellms/Llama-2-7b-hf
+train_path=//gogollm/run_allms2.py
+model_path=//opensourcellms/Llama-2-7b-hf
 # model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
 
-deepspeedpath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/deepspeed/deepspeed_config_bf16.json
+deepspeedpath=//gogollm/deepspeed/deepspeed_config_bf16.json
 
-datanamepath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/RedPajama-Data-1T-Sample
+datanamepath=//datasets/RedPajama-Data-1T-Sample
 echo $datanamepath
 
-model_save=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/acllm2/checkpoints_ct/allm-acse-7b
+model_save=//models/acllm2/checkpoints_ct/allm-acse-7b
 
 if [ ! -d "$model_save" ]; then
     mkdir -p "$model_save"
