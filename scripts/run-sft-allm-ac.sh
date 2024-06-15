@@ -11,25 +11,25 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
-export TRANSFORMERS_CACHE=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
+export HF_HOME=/jianhuipang_qy3/hf_cache
+export TRANSFORMERS_CACHE=/jianhuipang_qy3/hf_cache
 
-train_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/run_allms.py
-model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
-# model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
-model_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/newmodels/checkpoints_ct/ac/allm-ac-7b
+train_path=/jianhuipang_qy3/gogollm/run_allms.py
+model_path=jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
+# model_path=jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
+model_path=/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/newmodels/checkpoints_ct/ac/allm-ac-7b
 
-deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
-deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
+deepspeedpath=jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
+deepspeedpath=jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
 
 
-# datanamepath=/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/RedPajama-Data-1T-Sample
+# datanamepath=jianhuipang/datasets/RedPajama-Data-1T-Sample
 # echo $datanamepath
 
-datafile=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/alpaca-gpt4/train.addac.json
-# datafile=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/data/newstest17to20.de2en.cat.gpt4comaalpaca.hf.shuf.json
+datafile=/jianhuipang_qy3/datasets/alpaca-gpt4/train.addac.json
+# datafile=jianhuipang/gogollm/data/newstest17to20.de2en.cat.gpt4comaalpaca.hf.shuf.json
 echo $datafile
-evalfile=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/alpaca-gpt4/eval.addac.json
+evalfile=/jianhuipang_qy3/datasets/alpaca-gpt4/eval.addac.json
 
 model_save=./checkpoints_ctthensft/ac2/allm-addac-alpaca-ac-7b
 
