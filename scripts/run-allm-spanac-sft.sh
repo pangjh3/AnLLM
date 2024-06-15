@@ -12,25 +12,25 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
-export TRANSFORMERS_CACHE=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
+export HF_HOME=/jianhuipang_qy3/hf_cache
+export TRANSFORMERS_CACHE=/jianhuipang_qy3/hf_cache
 
-train_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/run_allms2.py
-# model_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/opensourcellms/Llama-2-7b-hf
+train_path=/jianhuipang_qy3/gogollm/run_allms2.py
+# model_path=/jianhuipang_qy3/opensourcellms/Llama-2-7b-hf
 # model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
-model_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/acllm2/checkpoints_ct/allm-acse-7b
+model_path=/jianhuipang_qy3/models/acllm2/checkpoints_ct/allm-acse-7b
 
-deepspeedpath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/deepspeed/deepspeed_config_bf16.json
-datafile=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/alpaca-gpt4/train.addac.json
+deepspeedpath=/jianhuipang_qy3/gogollm/deepspeed/deepspeed_config_bf16.json
+datafile=/jianhuipang_qy3/datasets/alpaca-gpt4/train.addac.json
 # datafile=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/data/newstest17to20.de2en.cat.gpt4comaalpaca.hf.shuf.json
 echo $datafile
-evalfile=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/alpaca-gpt4/eval.addac.json
+evalfile=/jianhuipang_qy3/datasets/alpaca-gpt4/eval.addac.json
 
 
-datanamepath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/RedPajama-Data-1T-Sample
+datanamepath=/jianhuipang_qy3/datasets/RedPajama-Data-1T-Sample
 echo $datanamepath
 
-model_save=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/acllm2/checkpoints_ctthensft/allm-acse-7b-sftonalpaca
+model_save=/jianhuipang_qy3/models/acllm2/checkpoints_ctthensft/allm-acse-7b-sftonalpaca
 
 if [ ! -d "$model_save" ]; then
     mkdir -p "$model_save"
