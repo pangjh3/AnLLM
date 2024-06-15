@@ -9,7 +9,7 @@ from lm_eval import tasks, evaluator, utils
 # sys.path.append("/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/codeforharness")
 # from llama_sft_forward import replace_llama_forward
 
-sys.path.append("/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/codes")
+sys.path.append("/jianhuipang_qy3/gogollm/codes")
 # from llama_sft_forward_thisversion import replace_llama_forward_forharness as replace_llama_forward
 # # from llama_sft_forward_thisversion_new import replace_llama_forward_forinference_withasan as myinfer
 from llama_sft_forward_thisversion_new import replace_llama_forward_fortraining as myinfer
