@@ -35,11 +35,11 @@ python3 eval_ppl_and_time_achor_usecache.py \
 
 }
 
-datapath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
-# datapath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data_forac.bin
-# modelpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
-modelpath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/newmodels/checkpoints_ct/ac/allm-ac-7b
-# modelpath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/apdcephfs/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
+datapath=/gogollm/test/pgforppl/test_sampled_data.bin
+# datapath=/gogollm/test/pgforppl/test_sampled_data_forac.bin
+# modelpath=/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
+modelpath=/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/newmodels/checkpoints_ct/ac/allm-ac-7b
+# modelpath=/jianhuipang_qy3/apdcephfs/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
 # ppl $datapath $modelpath allm-juhao-7b-oversize 1 0
 # ppl $datapath $1 $2 $3 $4
 ppl $datapath $modelpath allmac7b-ac-512 0 3072
