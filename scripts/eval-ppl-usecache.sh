@@ -37,8 +37,8 @@ python3 eval_ppl_usecache.py \
 
 }
 
-datapath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
-modelpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
+datapath=/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
+modelpath=/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
 
 ppl $datapath $modelpath allm-juhao-7b-oversize 1 0 6144 6144
 # ppl $datapath $1 $2 $3 $4 $5 $6
