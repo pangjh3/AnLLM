@@ -16,7 +16,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 import  sys, os
-sys.path.append("/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/codes")
+sys.path.append("../codes")
 from llama_sft_forward_thisversion_new import replace_llama_forward_fortraining as replace_allmtrainingforward
 
 
