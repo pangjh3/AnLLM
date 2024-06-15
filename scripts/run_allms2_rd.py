@@ -56,13 +56,13 @@ from transformers.utils.versions import require_version
 # xxx: 2023-03-21
 import copy
 
-# sys.path.append("/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/codes")
-sys.path.append("/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/codes")
+# sys.path.append("/jianhuipang/gogollm/codes")
+sys.path.append("/gogollm/codes")
 # from llama_sft_forward_thisversion import replace_llama_forward
 from anllm2_llama_forward import replace_llama_forward_fortraining as replace_allmtrainingforward
 
 import nltk
-nltkdir="/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/nltk_data/"
+nltkdir="/nltk_data/"
 sent_tokenizer = nltk.data.load(nltkdir+'tokenizers/punkt/english.pickle')
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
