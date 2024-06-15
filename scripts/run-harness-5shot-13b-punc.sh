@@ -16,7 +16,7 @@ mkdir -p $results_path
 
 prefix=allm-13b-punc-5shot-anchor-2
 model_path=/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
-model_path=/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/checkpoints2/llama2_13b_sfton_RedPajama-Data-1T-Sample-32gpus-8accgrad_douhao
+model_path=gogollm/checkpoints2/llama2_13b_sfton_RedPajama-Data-1T-Sample-32gpus-8accgrad_douhao
 model_name=all.${prefix}
 python $codepath \
     --model hf-causal-experimental \
