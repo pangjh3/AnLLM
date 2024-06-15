@@ -11,21 +11,21 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
-export TRANSFORMERS_CACHE=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/hf_cache
+export HF_HOME=/jianhuipang_qy3/hf_cache
+export TRANSFORMERS_CACHE=/jianhuipang_qy3/hf_cache
 
-train_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/run_allms2_fromscratch.py
-model_path=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/opensourcellms/llama2-size-txlbase
+train_path=/jianhuipang_qy3/gogollm/run_allms2_fromscratch.py
+model_path=/jianhuipang_qy3/opensourcellms/llama2-size-txlbase
 
 # deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
-deepspeedpath=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/deepspeed/deepspeed_config_bf16.json
+deepspeedpath=/jianhuipang_qy3/gogollm/deepspeed/deepspeed_config_bf16.json
 
-train_file=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/train.json
-val_file=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/validation.json
+train_file=/jianhuipang_qy3/datasets/wikitext-103/train.json
+val_file=/jianhuipang_qy3/datasets/wikitext-103/validation.json
 
-model_save=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/checkpoints_ct/punc/allm-juhao-txllarge-wiki103-bigbatch-saveeachepoch-2
+model_save=/jianhuipang_qy3/models/checkpoints_ct/punc/allm-juhao-txllarge-wiki103-bigbatch-saveeachepoch-2
 
-torchrunp=/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/anaconda3/envs/pyforllmenvs/bin/torchrun
+torchrunp=/jianhuipang_qy3/anaconda3/envs/pyforllmenvs/bin/torchrun
 
 if [ ! -d "$model_save" ]; then
     mkdir -p "$model_save"
