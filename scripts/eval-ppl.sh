@@ -35,11 +35,11 @@ done
 
 }
 
-datapath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
-# modelpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/checkpoints2/llama2_7b_sfton_RedPajama-Data-1T-Sample-32gpus-8accgrad_douhao
+datapath=/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
+# modelpath=/jianhuipang/gogollm/checkpoints2/llama2_7b_sfton_RedPajama-Data-1T-Sample-32gpus-8accgrad_douhao
 
 # ppl $datapath $modelpath llama2-7b-cptonred-testsample
 
-# datapath=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test.bin
+# datapath=/jianhuipang/gogollm/test/pgforppl/test.bin
 # ppl $datapath $1 $2 $3 $4 $5
 ppl $datapath $1 $2 $3 $4
