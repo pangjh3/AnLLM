@@ -11,25 +11,25 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-export HF_HOME=/apdcephfs/share_733425/vinnylywang/jianhuipang/hf_cache2
-export TRANSFORMERS_CACHE=/apdcephfs/share_733425/vinnylywang/jianhuipang/hf_cache2
+export HF_HOME=jianhuipang/hf_cache2
+export TRANSFORMERS_CACHE=jianhuipang/hf_cache2
 
-train_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/run_allms.py
-model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
-# model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
-model_path=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
+train_path=jianhuipang/gogollm/newmodels/run_allms.py
+model_path=jianhuipang/opensourcellms/llama2/Llama-2-7b-hf
+# model_path=jianhuipang/opensourcellms/llama2/Llama-2-13b-hf
+model_path=jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
 
-deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
-deepspeedpath=/apdcephfs/share_733425/vinnylywang/jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
+deepspeedpath=jianhuipang/LLMs4MT/train/deepspeed_config_zero2.json
+deepspeedpath=jianhuipang/llama2_sft/train/deepspeed_config_bf16.json
 
 
-# datanamepath=/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/RedPajama-Data-1T-Sample
+# datanamepath=jianhuipang/datasets/RedPajama-Data-1T-Sample
 # echo $datanamepath
 
-datafile=/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/alpaca-gpt4/train.hf.addcoma.json
-# datafile=/apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/data/newstest17to20.de2en.cat.gpt4comaalpaca.hf.shuf.json
+datafile=jianhuipang/datasets/alpaca-gpt4/train.hf.addcoma.json
+# datafile=jianhuipang/gogollm/data/newstest17to20.de2en.cat.gpt4comaalpaca.hf.shuf.json
 echo $datafile
-evalfile=/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/alpaca-gpt4/eval.hf.addcoma.json
+evalfile=jianhuipang/datasets/alpaca-gpt4/eval.hf.addcoma.json
 
 model_save=./checkpoints_ctthensft/punc/allm-alpaca-juhao-7b
 
