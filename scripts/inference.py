@@ -14,11 +14,7 @@ import sys
 
 import time
 
-
-# sys.path.append("/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/transformers/examples/pytorch/language-modeling")
-# from llama_sft_forward_thisversion import replace_llama_forward, replace_llama_forward_forfastinfer
-
-sys.path.append("/apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/codes")
+sys.path.append("codes")
 from llama_sft_forward_thisversion_new import replace_llama_forward_forinference_withasan as myinfer
 # from llama_sft_forward_thisversion_new import replace_llama_forward_forinference as myinfer
 
