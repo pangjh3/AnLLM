@@ -1,0 +1,10 @@
+ac !
+Num validation tokens: 4194304
+data path /apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/apdcephfs/jianhuipang/gogollm/newmodels/checkpoints_ct/ac/allm-ac-7b
+peft model None
+True
+Using seq length 3072
+2049 1024 torch.Size([1, 32, 2, 128])
+2049 1024 torch.Size([1, 32, 2, 128])
+{'val_acc': 0.5689879655838013, 'val_loss': 1.94140625, 'val_perplexity': 6.968534497856358, 'val_perplexity_per_chunk': tensor([6.5208]), 'alltime': 1.6961493492126465}

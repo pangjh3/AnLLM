@@ -1,0 +1,7 @@
+ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/checkpoints_ct/punc/allm-juhao-txllarge-wiki103-bigbatch-5epoch/checkpoint-120
+peft model None
+Using seq length 512
+{'val_acc': 0.25995364785194397, 'val_loss': 4.576870918273926, 'val_perplexity': 97.20944131593231, 'val_perplexity_per_chunk': tensor([97.2097])}

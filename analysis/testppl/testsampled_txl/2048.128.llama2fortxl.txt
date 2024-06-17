@@ -1,0 +1,7 @@
+no ac !
+Num validation tokens: 4194304
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/gogollm/test/pgforppl/test_sampled_data.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/opensourcellms/Llama-2-7b-hf
+peft model None
+Using seq length 2048
+{'val_acc': 1.080664873123169, 'val_loss': 6.311225414276123, 'val_perplexity': 550.7170569546875, 'val_perplexity_per_chunk': tensor([550.8386])}

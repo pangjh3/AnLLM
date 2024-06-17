@@ -1,0 +1,216 @@
+ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-28
+peft model None
+Using seq length 4096
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-28
+peft model None
+Using seq length 4096
+{'val_acc': 0.0914481058716774, 'val_loss': 7.009588241577148, 'val_perplexity': 1107.1932922652006, 'val_perplexity_per_chunk': tensor([1107.1985])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-57
+peft model None
+Using seq length 4096
+{'val_acc': 0.13662996888160706, 'val_loss': 6.184760570526123, 'val_perplexity': 485.2947364254085, 'val_perplexity_per_chunk': tensor([485.2968])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-86
+peft model None
+Using seq length 4096
+{'val_acc': 0.17135818302631378, 'val_loss': 5.703277111053467, 'val_perplexity': 299.8472789078091, 'val_perplexity_per_chunk': tensor([299.8484])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-115
+peft model None
+Using seq length 4096
+{'val_acc': 0.19968484342098236, 'val_loss': 5.3407063484191895, 'val_perplexity': 208.65929534358418, 'val_perplexity_per_chunk': tensor([208.6600])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-144
+peft model None
+Using seq length 4096
+{'val_acc': 0.22304624319076538, 'val_loss': 5.02734375, 'val_perplexity': 152.52680763110504, 'val_perplexity_per_chunk': tensor([152.5273])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-173
+peft model None
+Using seq length 4096
+{'val_acc': 0.2442103773355484, 'val_loss': 4.762733459472656, 'val_perplexity': 117.0651076667896, 'val_perplexity_per_chunk': tensor([117.0655])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-202
+peft model None
+Using seq length 4096
+{'val_acc': 0.26005733013153076, 'val_loss': 4.553089618682861, 'val_perplexity': 94.92494778337496, 'val_perplexity_per_chunk': tensor([94.9252])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-231
+peft model None
+Using seq length 4096
+{'val_acc': 0.2752828299999237, 'val_loss': 4.380986213684082, 'val_perplexity': 79.91657409975355, 'val_perplexity_per_chunk': tensor([79.9168])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-259
+peft model None
+Using seq length 4096
+{'val_acc': 0.29284191131591797, 'val_loss': 4.226156711578369, 'val_perplexity': 68.453444292703, 'val_perplexity_per_chunk': tensor([68.4536])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-288
+peft model None
+Using seq length 4096
+{'val_acc': 0.30589550733566284, 'val_loss': 4.1065592765808105, 'val_perplexity': 60.73720934506566, 'val_perplexity_per_chunk': tensor([60.7374])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-317
+peft model None
+Using seq length 4096
+{'val_acc': 0.30872058868408203, 'val_loss': 4.0505781173706055, 'val_perplexity': 57.43049262872867, 'val_perplexity_per_chunk': tensor([57.4306])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-346
+peft model None
+Using seq length 4096
+{'val_acc': 0.32789355516433716, 'val_loss': 3.9081015586853027, 'val_perplexity': 49.804180679278986, 'val_perplexity_per_chunk': tensor([49.8043])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-375
+peft model None
+Using seq length 4096
+{'val_acc': 0.3334200084209442, 'val_loss': 3.852602481842041, 'val_perplexity': 47.11539900542247, 'val_perplexity_per_chunk': tensor([47.1155])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-404
+peft model None
+Using seq length 4096
+{'val_acc': 0.339292049407959, 'val_loss': 3.8005528450012207, 'val_perplexity': 44.72578981264693, 'val_perplexity_per_chunk': tensor([44.7259])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-433
+peft model None
+Using seq length 4096
+{'val_acc': 0.3485915958881378, 'val_loss': 3.7358715534210205, 'val_perplexity': 41.92444377497115, 'val_perplexity_per_chunk': tensor([41.9245])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-462
+peft model None
+Using seq length 4096
+{'val_acc': 0.3533158600330353, 'val_loss': 3.6904170513153076, 'val_perplexity': 40.06145174897012, 'val_perplexity_per_chunk': tensor([40.0616])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-490
+peft model None
+Using seq length 4096
+{'val_acc': 0.353940486907959, 'val_loss': 3.676669120788574, 'val_perplexity': 39.51445868812413, 'val_perplexity_per_chunk': tensor([39.5146])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-519
+peft model None
+Using seq length 4096
+{'val_acc': 0.3587757349014282, 'val_loss': 3.637606620788574, 'val_perplexity': 38.00068454638167, 'val_perplexity_per_chunk': tensor([38.0008])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-548
+peft model None
+Using seq length 4096
+{'val_acc': 0.35901036858558655, 'val_loss': 3.6327872276306152, 'val_perplexity': 37.81798503418691, 'val_perplexity_per_chunk': tensor([37.8181])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-577
+peft model None
+Using seq length 4096
+{'val_acc': 0.36316394805908203, 'val_loss': 3.6043906211853027, 'val_perplexity': 36.759187583373574, 'val_perplexity_per_chunk': tensor([36.7593])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-606
+peft model None
+Using seq length 4096
+{'val_acc': 0.36295467615127563, 'val_loss': 3.6083984375, 'val_perplexity': 36.90680717429497, 'val_perplexity_per_chunk': tensor([36.9069])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-635
+peft model None
+Using seq length 4096
+{'val_acc': 0.36242517828941345, 'val_loss': 3.6016385555267334, 'val_perplexity': 36.65816303040654, 'val_perplexity_per_chunk': tensor([36.6583])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-664
+peft model None
+Using seq length 4096
+{'val_acc': 0.3650600016117096, 'val_loss': 3.5991528034210205, 'val_perplexity': 36.567153146547646, 'val_perplexity_per_chunk': tensor([36.5672])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-693
+peft model None
+Using seq length 4096
+{'val_acc': 0.3612932562828064, 'val_loss': 3.627143383026123, 'val_perplexity': 37.605147522444355, 'val_perplexity_per_chunk': tensor([37.6052])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-721
+peft model None
+Using seq length 4096
+{'val_acc': 0.36180055141448975, 'val_loss': 3.6363637447357178, 'val_perplexity': 37.95348377574639, 'val_perplexity_per_chunk': tensor([37.9536])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-750
+peft model None
+Using seq length 4096
+{'val_acc': 0.36315760016441345, 'val_loss': 3.6463828086853027, 'val_perplexity': 38.33565319276, 'val_perplexity_per_chunk': tensor([38.3357])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-779
+peft model None
+Using seq length 4096
+{'val_acc': 0.3584396541118622, 'val_loss': 3.6882102489471436, 'val_perplexity': 39.973141579165464, 'val_perplexity_per_chunk': tensor([39.9732])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-808
+peft model None
+Using seq length 4096
+{'val_acc': 0.3583603799343109, 'val_loss': 3.716391086578369, 'val_perplexity': 41.11564009625155, 'val_perplexity_per_chunk': tensor([41.1157])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-837
+peft model None
+Using seq length 4096
+{'val_acc': 0.3572475016117096, 'val_loss': 3.7254209518432617, 'val_perplexity': 41.488589844582954, 'val_perplexity_per_chunk': tensor([41.4887])}
+no ac !
+Num validation tokens: 322504
+data path /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/datasets/wikitext-103/testforppl.bin
+base model /apdcephfs_qy3/share_733425/vinnylywang/jianhuipang_qy3/models/wikiart/punc/allm-juhao-txllarge-fullatt/checkpoint-840
+peft model None
+Using seq length 4096
+{'val_acc': 0.35182249546051025, 'val_loss': 3.8028738498687744, 'val_perplexity': 44.82971908211298, 'val_perplexity_per_chunk': tensor([44.8298])}
