@@ -1,8 +1,0 @@
-ac !
-Num validation tokens: 4194304
-data path /apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/test/pgforppl/test_sampled_data.bin
-base model /apdcephfs/share_733425/vinnylywang/jianhuipang/gogollm/newmodels/checkpoints_ct/punc/allm-juhao-7b
-peft model None
-True
-Using seq length 3072
-{'val_acc': 0.55615234375, 'val_loss': 1.9765625, 'val_perplexity': 7.217879202289841, 'val_perplexity_per_chunk': tensor([7.2179]), 'alltime': 1.920630931854248}
